@@ -1,0 +1,37 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  font-size: 22px;
+  margin: 10px;
+}
+
+.parentBox{
+  margin: 4px;
+  padding: 4px;
+  height: auto;
+  width: auto;
+}
+
+.box{
+  margin: 4px 15px;
+  height: 120px;
+  width: 120px;
+  display: inline-block;
+  border: 2px solid black;
+  transition: transform 0.01s ease;
+  cursor: pointer;                  /*for hover effect*/
+  transform: scale(1.1);
+}
+
