@@ -39,11 +39,12 @@ colors.forEach((color) => addBox(color));
 const boxes = document.querySelectorAll(".box");
 boxes.forEach((box) => {
   box.addEventListener("click", (e) => {
-    const boxColor = e.target.style.backgroundColor;
+    const boxColor = e.target.id;
     body.style.backgroundColor = boxColor;
   });
 });
 
 // Footer
 addText("Click on box to see the change", footer);
+
 
